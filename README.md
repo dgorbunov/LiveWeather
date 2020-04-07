@@ -1,2 +1,8 @@
 # LiveWeather
-Utilizes Arduino + Raspberry Pi sending data over a serial connection
+Utilizes Arduino taking data from DHT11 and displaying on a 16x2 LCD, passed to Raspberry Pi over USB, Pi fetches the data from the serial connection, does some processing, and sends it out to Adafruit IO servers.
+
+TODO: 
+Use DHT22 for accuracy
+Get DarkSky conditions
+Publish inside data too?
+Axis labels
