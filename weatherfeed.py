@@ -3,7 +3,7 @@ import serial
 import time
 import re
 
-aio = Client('ZeroState', 'aio_wsBo330TLuhru33ZMN4EE4td6wxc')
+aio = Client('','')
 
 arduino = serial.Serial("/dev/ttyACM0")
 arduino.baudrate = 9600
