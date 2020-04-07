@@ -3,6 +3,7 @@ import serial
 import time
 import re
 
+#No, I'm not giving you my credentials...
 aio = Client('','')
 
 arduino = serial.Serial("/dev/ttyACM0")
